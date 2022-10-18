@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2bb1615-f25e-465b-abb9-3cfc0eda6e7b" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/MapPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/GmailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/StepDefinition/RouteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Features/MyTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/MyTest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/GooglePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BDD/StepDefinion/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/StepDefintiion/RouteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/MapPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/WebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libs/WebElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BDD/StepDefintiion/RouteTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BDD/TestRunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/TestRunner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Google_tests/Google_test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Google_tests/locators.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TDD/Unit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TDD/UnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parentTest/Parent_test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +47,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Program/Zavalii_cucumber_map",
+    "last_opened_file_path": "D:/Internship/GmailLoginTask/SignInGmailTest",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Feature: MyTest">
-    <configuration name="Feature: MyTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Feature: MyTest (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Features/MyTest.feature" />
       <option name="GLUE" value="BDD.StepDefintiion" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Zavalii_cucumber_map" />
+      <module name="SignInGmailTest" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: MyTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -76,15 +71,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Map Path Test (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Login with the wrong email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Features/MyTest.feature" />
-      <option name="GLUE" value="BDD.StepDefintiion" />
+      <option name="GLUE" value="BDD.StepDefinition" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Zavalii_cucumber_map" />
-      <option name="NAME_FILTER" value="^Map Path Test$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Map Path Test$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Map Path Test" />
+      <module name="SignInGmailTest" />
+      <option name="NAME_FILTER" value="^Login with the wrong email$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login with the wrong email$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with the wrong email" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -96,15 +91,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Map Path Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Login with valid data (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Features/MyTest.feature" />
-      <option name="GLUE" value="BDD.StepDefintiion" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Features/Tests.feature" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Test_projectSave — копия" />
-      <option name="NAME_FILTER" value="^Map Path Test$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Map Path Test$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Map Path Test" />
+      <module name="SignInGmailTest" />
+      <option name="NAME_FILTER" value="^Login with valid data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login with valid data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with valid data" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -116,23 +110,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Zavalii_cucumber_map" />
+    <configuration name="Scenario: Login with valid data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Features/MyTest.feature" />
+      <option name="GLUE" value="BDD.StepDefintiion" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="SignInGmailTest" />
+      <option name="NAME_FILTER" value="^Login with valid data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login with valid data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with valid data" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BDD.TestRunner.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BDD.TestRunner" />
-      <option name="MAIN_CLASS_NAME" value="BDD.TestRunner.Runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test_projectSave — копия" />
+      <module name="SignInGmailTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BDD.TestRunner.*" />
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: MyTest" />
-        <item itemvalue="JUnit.Runner (1)" />
-        <item itemvalue="Cucumber Java.Scenario: Map Path Test (1)" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Scenario: Map Path Test" />
+        <item itemvalue="Cucumber Java.Scenario: Login with the wrong email" />
+        <item itemvalue="Cucumber Java.Scenario: Login with valid data" />
+        <item itemvalue="Cucumber Java.Feature: MyTest (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Login with valid data (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656929978049</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1">
+      <created>1659530883301</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659530883301</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
